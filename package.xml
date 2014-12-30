@@ -13,6 +13,8 @@ de.jacboy.wcf.maelstrom.thankomat" xmlns="http://www.woltlab.com" xmlns:xsi="htt
 		<authorurl>http://jacboy.de</authorurl>
 	</authorinformation>
 
+	<excludepackage version="<2.1.0 Alpha 1">com.woltlab.wcf</excludepackage>
+
 	<requiredpackages>
 		<requiredpackage minversion="2.0.0">com.woltlab.wcf</requiredpackage>
 	</requiredpackages>
