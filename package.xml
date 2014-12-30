@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<package name="
+de.jacboy.wcf.maelstrom.thankomat" xmlns="http://www.woltlab.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.woltlab.com http://www.woltlab.com/XSD/maelstrom/package.xsd">
+	<packageinformation>
+		<packagename>Thankomat</packagename>
+		<packagedescription>Thankomat for WoltLab Community Framework 2.0 (Maelstrom)</packagedescription>
+		<version>1.0.0 Alpha 1</version>
+		<date>2014-12-30</date>
+	</packageinformation>
+
+	<authorinformation>
+		<author>HellGrave, jacboy, pegelf</author>
+		<authorurl>http://jacboy.de</authorurl>
+	</authorinformation>
+
+	<requiredpackages>
+		<requiredpackage minversion="2.0.0">com.woltlab.wcf</requiredpackage>
+	</requiredpackages>
+</package>
