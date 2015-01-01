@@ -22,7 +22,7 @@
 	</requiredpackages>
 
 	<instructions type="install">
-		<instruction application="wbb" type="file">files.tar</instruction>
+		<instruction type="file">files.tar</instruction>
 		<instruction type="language">lang/*.xml</instruction>
 	</instructions>
 </package>
