@@ -21,7 +21,7 @@
 		<requiredpackage minversion="2.0.0">com.woltlab.wcf</requiredpackage>
 	</requiredpackages>
 
-	<instructions type="install" fromversion="*">
+	<instructions type="install">
 		<instruction application="wbb" type="file">files.tar</instruction>
 		<instruction type="language">lang/*.xml</instruction>
 	</instructions>
