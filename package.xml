@@ -1,21 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<package name="
-eu.burneffect.wcf.maelstrom.thankomat" xmlns="http://www.woltlab.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.woltlab.com http://www.woltlab.com/XSD/maelstrom/package.xsd">
-	<packageinformation>
+<package name="eu.burneffect.wcf.maelstrom.thankomat" xmlns="http://www.woltlab.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.woltlab.com http://www.woltlab.com/XSD/maelstrom/package.xsd">
+ 	<packageinformation>
 		<packagename>Thankomat</packagename>
-		<packagedescription>Thankomat for WoltLab Community Framework 2.0 (Maelstrom)</packagedescription>
-		<version>1.0.0 Alpha 1</version>
+		<packagename language="de">Bedankomat</packagename>
+		<packagedescription><![CDATA[Thankomat for WoltLab Community Framework 2.0 (Maelstrom)]]></packagedescription>
+		<packagedescription language="de"><![CDATA[Bedankomat für das Woltlab Community Framework 2.0]]></packagedescription>
+		<isapplication>0</isapplication>
+		<version>0.0.1</version>
 		<date>2014-12-31</date>
 	</packageinformation>
 
 	<authorinformation>
-		<author>HellGrave, jacboy, pegelf</author>
-		<authorurl>http://burneffect.eu</authorurl>
+		<author>Burneffect</author>
+		<authorurl>http://www.burneffect.eu</authorurl>
 	</authorinformation>
-
+	
 	<excludepackage version="<2.1.0 Alpha 1">com.woltlab.wcf</excludepackage>
-
+	
 	<requiredpackages>
 		<requiredpackage minversion="2.0.0">com.woltlab.wcf</requiredpackage>
 	</requiredpackages>
+
+	<instructions type="install" fromversion="*">
+		<instruction application="wbb" type="file">files.tar</instruction>
+		<instruction type="language">lang/*.xml</instruction>
+	</instructions>
 </package>
